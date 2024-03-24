@@ -1,6 +1,6 @@
 pipeline {
         environment {
-        registry = 'harbor-core.az.tillman.wtf/tillmanwtf/docker-salt-master'
+        registry = 'harbor-core.az.tillman.wtf/tillmanwtf/salt-master'
         registryCredential = 'harbor-core.az.tillman.wtf'
         dockerImage = ''
     }
